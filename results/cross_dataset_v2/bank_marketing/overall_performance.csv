@@ -1,0 +1,2 @@
+Dataset,Accuracy,Precision,Recall,F1_Score,True_Positive,False_Positive,True_Negative,False_Negative
+bank_marketing,0.9779918975145079,0.7427466150870407,0.8495575221238938,0.7925696594427245,384,133,8548,68

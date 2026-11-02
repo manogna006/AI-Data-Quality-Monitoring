@@ -1,0 +1,6 @@
+Dataset,Error_Type,Threshold,Validation_F1
+telco_customer_churn,Missing,0.36000000000000004,1.0
+telco_customer_churn,Invalid,0.13,1.0
+telco_customer_churn,Outlier,0.39,1.0
+telco_customer_churn,Inconsistency,0.29000000000000004,0.06722689075630252
+telco_customer_churn,Duplicate,0.52,0.5777777777777777

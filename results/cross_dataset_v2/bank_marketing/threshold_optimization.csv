@@ -1,0 +1,6 @@
+Dataset,Error_Type,Threshold,Validation_F1
+bank_marketing,Missing,0.11,1.0
+bank_marketing,Invalid,0.14,1.0
+bank_marketing,Outlier,0.29000000000000004,1.0
+bank_marketing,Inconsistency,0.52,0.3291139240506329
+bank_marketing,Duplicate,0.03,0.6844106463878327

@@ -1,0 +1,6 @@
+Error_Type,Threshold,Validation_F1
+Missing_Value,0.5700000000000001,0.7844748858447489
+Invalid_Value,0.67,0.9952244508118434
+Outlier,0.73,0.9526963103122044
+Inconsistency,0.2,1.0
+Duplicate,0.75,0.8902321083172147

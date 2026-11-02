@@ -1,0 +1,134 @@
+{
+    "dataset": "bank_marketing",
+    "original_rows": 45211,
+    "corrupted_rows": 45663,
+    "train_rows": 27397,
+    "validation_rows": 9133,
+    "test_rows": 9133,
+    "feature_count": 114,
+    "overall": {
+        "Dataset": "bank_marketing",
+        "Accuracy": 0.98543742472353,
+        "Precision": 0.774526678141136,
+        "Recall": 0.995575221238938,
+        "F1_Score": 0.8712487899322362,
+        "True_Positive": 450,
+        "False_Positive": 131,
+        "True_Negative": 8550,
+        "False_Negative": 2,
+        "Overall_Threshold": 0.45,
+        "Validation_F1": 0.8676328502415459
+    },
+    "error_type_results": [
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Missing",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1_Score": 1.0,
+            "True_Positive": 91,
+            "False_Positive": 0,
+            "True_Negative": 9042,
+            "False_Negative": 0,
+            "Threshold": 0.11,
+            "Validation_F1": 1.0
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Invalid",
+            "Accuracy": 0.9998905069528085,
+            "Precision": 0.989010989010989,
+            "Recall": 1.0,
+            "F1_Score": 0.994475138121547,
+            "True_Positive": 90,
+            "False_Positive": 1,
+            "True_Negative": 9042,
+            "False_Negative": 0,
+            "Threshold": 0.15000000000000002,
+            "Validation_F1": 1.0
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Outlier",
+            "Accuracy": 0.9998905069528085,
+            "Precision": 0.989010989010989,
+            "Recall": 1.0,
+            "F1_Score": 0.994475138121547,
+            "True_Positive": 90,
+            "False_Positive": 1,
+            "True_Negative": 9042,
+            "False_Negative": 0,
+            "Threshold": 0.29000000000000004,
+            "Validation_F1": 1.0
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Inconsistency",
+            "Accuracy": 0.9955107850651483,
+            "Precision": 0.6929133858267716,
+            "Recall": 0.9777777777777777,
+            "F1_Score": 0.8110599078341014,
+            "True_Positive": 88,
+            "False_Positive": 39,
+            "True_Negative": 9004,
+            "False_Negative": 2,
+            "Threshold": 0.45,
+            "Validation_F1": 0.8446601941747572
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Duplicate",
+            "Accuracy": 0.9897076535639987,
+            "Precision": 0.4918918918918919,
+            "Recall": 1.0,
+            "F1_Score": 0.6594202898550725,
+            "True_Positive": 91,
+            "False_Positive": 94,
+            "True_Negative": 8948,
+            "False_Negative": 0,
+            "Threshold": 0.03,
+            "Validation_F1": 0.631578947368421
+        }
+    ],
+    "thresholds": [
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Missing",
+            "Threshold": 0.11,
+            "Validation_F1": 1.0
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Invalid",
+            "Threshold": 0.15000000000000002,
+            "Validation_F1": 1.0
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Outlier",
+            "Threshold": 0.29000000000000004,
+            "Validation_F1": 1.0
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Inconsistency",
+            "Threshold": 0.45,
+            "Validation_F1": 0.8446601941747572
+        },
+        {
+            "Dataset": "bank_marketing",
+            "Error_Type": "Duplicate",
+            "Threshold": 0.03,
+            "Validation_F1": 0.631578947368421
+        }
+    ],
+    "identifier_columns": [],
+    "corruption_info": {
+        "missing_column": "age",
+        "invalid_column": "age",
+        "outlier_column": "age",
+        "inconsistency_context": "job",
+        "inconsistency_value": "month"
+    }
+}

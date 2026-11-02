@@ -1,0 +1,14 @@
+Audit_Item,Status
+Split Strategy,JOINT ERROR-PATTERN STRATIFIED
+Context Statistics,TRAIN ONLY
+Missing Pattern Statistics,TRAIN ONLY
+Duplicate Signal,UNSUPERVISED DATASET-LEVEL
+Duplicate Ground Truth Used,NO
+Threshold Optimization,VALIDATION ONLY
+Test Evaluation,FINAL TEST ONLY
+Identifier Features,REMOVED
+Customer ID Model Feature,REMOVED
+Synthetic Artifact Flag,REMOVED
+Missing Specialization,ENABLED
+Duplicate Specialization,ENABLED
+Clean Model Features,76

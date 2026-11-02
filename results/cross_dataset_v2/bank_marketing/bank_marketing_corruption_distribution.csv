@@ -1,0 +1,6 @@
+Dataset,Error_Type,Count,Rate_Percent
+bank_marketing,Missing,452,0.9898604997481549
+bank_marketing,Invalid,452,0.9898604997481549
+bank_marketing,Outlier,452,0.9898604997481549
+bank_marketing,Inconsistency,452,0.9898604997481549
+bank_marketing,Duplicate,0,0.0

@@ -1,0 +1,279 @@
+{
+    "completed_datasets": [
+        "bank_marketing",
+        "telco_customer_churn"
+    ],
+    "failed_datasets": [],
+    "results": [
+        {
+            "dataset": "bank_marketing",
+            "original_rows": 45211,
+            "corrupted_rows": 45663,
+            "train_rows": 27397,
+            "validation_rows": 9133,
+            "test_rows": 9133,
+            "feature_count": 114,
+            "overall": {
+                "Dataset": "bank_marketing",
+                "Accuracy": 0.98543742472353,
+                "Precision": 0.774526678141136,
+                "Recall": 0.995575221238938,
+                "F1_Score": 0.8712487899322362,
+                "True_Positive": 450,
+                "False_Positive": 131,
+                "True_Negative": 8550,
+                "False_Negative": 2,
+                "Overall_Threshold": 0.45,
+                "Validation_F1": 0.8676328502415459
+            },
+            "error_type_results": [
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Missing",
+                    "Accuracy": 1.0,
+                    "Precision": 1.0,
+                    "Recall": 1.0,
+                    "F1_Score": 1.0,
+                    "True_Positive": 91,
+                    "False_Positive": 0,
+                    "True_Negative": 9042,
+                    "False_Negative": 0,
+                    "Threshold": 0.11,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Invalid",
+                    "Accuracy": 0.9998905069528085,
+                    "Precision": 0.989010989010989,
+                    "Recall": 1.0,
+                    "F1_Score": 0.994475138121547,
+                    "True_Positive": 90,
+                    "False_Positive": 1,
+                    "True_Negative": 9042,
+                    "False_Negative": 0,
+                    "Threshold": 0.15000000000000002,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Outlier",
+                    "Accuracy": 0.9998905069528085,
+                    "Precision": 0.989010989010989,
+                    "Recall": 1.0,
+                    "F1_Score": 0.994475138121547,
+                    "True_Positive": 90,
+                    "False_Positive": 1,
+                    "True_Negative": 9042,
+                    "False_Negative": 0,
+                    "Threshold": 0.29000000000000004,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Inconsistency",
+                    "Accuracy": 0.9955107850651483,
+                    "Precision": 0.6929133858267716,
+                    "Recall": 0.9777777777777777,
+                    "F1_Score": 0.8110599078341014,
+                    "True_Positive": 88,
+                    "False_Positive": 39,
+                    "True_Negative": 9004,
+                    "False_Negative": 2,
+                    "Threshold": 0.45,
+                    "Validation_F1": 0.8446601941747572
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Duplicate",
+                    "Accuracy": 0.9897076535639987,
+                    "Precision": 0.4918918918918919,
+                    "Recall": 1.0,
+                    "F1_Score": 0.6594202898550725,
+                    "True_Positive": 91,
+                    "False_Positive": 94,
+                    "True_Negative": 8948,
+                    "False_Negative": 0,
+                    "Threshold": 0.03,
+                    "Validation_F1": 0.631578947368421
+                }
+            ],
+            "thresholds": [
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Missing",
+                    "Threshold": 0.11,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Invalid",
+                    "Threshold": 0.15000000000000002,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Outlier",
+                    "Threshold": 0.29000000000000004,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Inconsistency",
+                    "Threshold": 0.45,
+                    "Validation_F1": 0.8446601941747572
+                },
+                {
+                    "Dataset": "bank_marketing",
+                    "Error_Type": "Duplicate",
+                    "Threshold": 0.03,
+                    "Validation_F1": 0.631578947368421
+                }
+            ],
+            "identifier_columns": [],
+            "corruption_info": {
+                "missing_column": "age",
+                "invalid_column": "age",
+                "outlier_column": "age",
+                "inconsistency_context": "job",
+                "inconsistency_value": "month"
+            }
+        },
+        {
+            "dataset": "telco_customer_churn",
+            "original_rows": 7043,
+            "corrupted_rows": 7113,
+            "train_rows": 4267,
+            "validation_rows": 1423,
+            "test_rows": 1423,
+            "feature_count": 129,
+            "overall": {
+                "Dataset": "telco_customer_churn",
+                "Accuracy": 0.9768095572733662,
+                "Precision": 0.7466666666666667,
+                "Recall": 0.8,
+                "F1_Score": 0.7724137931034483,
+                "True_Positive": 56,
+                "False_Positive": 19,
+                "True_Negative": 1334,
+                "False_Negative": 14,
+                "Overall_Threshold": 0.64,
+                "Validation_F1": 0.7692307692307693
+            },
+            "error_type_results": [
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Missing",
+                    "Accuracy": 1.0,
+                    "Precision": 1.0,
+                    "Recall": 1.0,
+                    "F1_Score": 1.0,
+                    "True_Positive": 14,
+                    "False_Positive": 0,
+                    "True_Negative": 1409,
+                    "False_Negative": 0,
+                    "Threshold": 0.38,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Invalid",
+                    "Accuracy": 0.9992972593113141,
+                    "Precision": 0.9333333333333333,
+                    "Recall": 1.0,
+                    "F1_Score": 0.9655172413793104,
+                    "True_Positive": 14,
+                    "False_Positive": 1,
+                    "True_Negative": 1408,
+                    "False_Negative": 0,
+                    "Threshold": 0.14,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Outlier",
+                    "Accuracy": 0.9985945186226283,
+                    "Precision": 0.875,
+                    "Recall": 1.0,
+                    "F1_Score": 0.9333333333333333,
+                    "True_Positive": 14,
+                    "False_Positive": 2,
+                    "True_Negative": 1407,
+                    "False_Negative": 0,
+                    "Threshold": 0.37,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Inconsistency",
+                    "Accuracy": 0.9683766690091357,
+                    "Precision": 0.10256410256410256,
+                    "Recall": 0.2857142857142857,
+                    "F1_Score": 0.1509433962264151,
+                    "True_Positive": 4,
+                    "False_Positive": 35,
+                    "True_Negative": 1374,
+                    "False_Negative": 10,
+                    "Threshold": 0.4,
+                    "Validation_F1": 0.1568627450980392
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Duplicate",
+                    "Accuracy": 0.988756148981026,
+                    "Precision": 0.4642857142857143,
+                    "Recall": 0.9285714285714286,
+                    "F1_Score": 0.6190476190476191,
+                    "True_Positive": 13,
+                    "False_Positive": 15,
+                    "True_Negative": 1394,
+                    "False_Negative": 1,
+                    "Threshold": 0.74,
+                    "Validation_F1": 0.6
+                }
+            ],
+            "thresholds": [
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Missing",
+                    "Threshold": 0.38,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Invalid",
+                    "Threshold": 0.14,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Outlier",
+                    "Threshold": 0.37,
+                    "Validation_F1": 1.0
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Inconsistency",
+                    "Threshold": 0.4,
+                    "Validation_F1": 0.1568627450980392
+                },
+                {
+                    "Dataset": "telco_customer_churn",
+                    "Error_Type": "Duplicate",
+                    "Threshold": 0.74,
+                    "Validation_F1": 0.6
+                }
+            ],
+            "identifier_columns": [
+                "customerID"
+            ],
+            "corruption_info": {
+                "missing_column": "gender",
+                "invalid_column": "tenure",
+                "outlier_column": "tenure",
+                "inconsistency_context": "MultipleLines",
+                "inconsistency_value": "PaymentMethod"
+            }
+        }
+    ]
+}

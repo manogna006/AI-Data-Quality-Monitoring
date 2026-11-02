@@ -1,0 +1,6 @@
+Error_Type,Predicted_Rows,Mean_Confidence
+Missing Value,1099,0.7647700219338959
+Invalid Value,1045,0.9979875021391967
+Outlier,1055,0.9688354386143044
+Inconsistency,1051,0.9990915058719332
+Duplicate,2131,0.8744958459936081

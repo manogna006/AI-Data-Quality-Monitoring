@@ -1,0 +1,40 @@
+# Python environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large datasets
+datasets/raw/
+datasets/corrupted/
+datasets/processed/
+
+# Old intermediate results
+results/metrics/v2/
+results/metrics/v3/
+results/metrics/v4/
+results/metrics/v5/
+results/metrics/v5_1/
+results/metrics/v5_2/
+results/metrics/v5_3/
+results/metrics/v5_4/
+results/metrics/v5_5/
+results/metrics/v5_6/
+
+# Large intermediate CSV files
+results/metrics/*.csv
+
+# Cross-dataset intermediate data
+results/cross_dataset_v2_3/*/corrupted.csv
+results/cross_dataset_v2_3/*/ground_truth.csv
+results/cross_dataset_v2_3/*/predictions.csv

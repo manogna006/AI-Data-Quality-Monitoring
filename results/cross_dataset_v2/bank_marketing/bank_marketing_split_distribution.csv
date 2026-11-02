@@ -1,0 +1,16 @@
+Dataset,Split,Error_Type,Count,Rate_Percent
+bank_marketing,Train,Missing,271,0.9891593970142717
+bank_marketing,Train,Invalid,271,0.9891593970142717
+bank_marketing,Train,Outlier,271,0.9891593970142717
+bank_marketing,Train,Inconsistency,271,0.9891593970142717
+bank_marketing,Train,Duplicate,0,0.0
+bank_marketing,Validation,Missing,91,0.9963867294426804
+bank_marketing,Validation,Invalid,90,0.98543742472353
+bank_marketing,Validation,Outlier,91,0.9963867294426804
+bank_marketing,Validation,Inconsistency,90,0.98543742472353
+bank_marketing,Validation,Duplicate,0,0.0
+bank_marketing,Test,Missing,90,0.98543742472353
+bank_marketing,Test,Invalid,91,0.9963867294426804
+bank_marketing,Test,Outlier,90,0.98543742472353
+bank_marketing,Test,Inconsistency,91,0.9963867294426804
+bank_marketing,Test,Duplicate,0,0.0

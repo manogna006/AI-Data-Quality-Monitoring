@@ -1,0 +1,16 @@
+Dataset,Split,Error_Type,Count,Rate_Percent
+telco_customer_churn,Train,Missing,42,0.9842981017108039
+telco_customer_churn,Train,Invalid,42,0.9842981017108039
+telco_customer_churn,Train,Outlier,42,0.9842981017108039
+telco_customer_churn,Train,Inconsistency,42,0.9842981017108039
+telco_customer_churn,Train,Duplicate,0,0.0
+telco_customer_churn,Validation,Missing,14,0.9838369641602249
+telco_customer_churn,Validation,Invalid,14,0.9838369641602249
+telco_customer_churn,Validation,Outlier,14,0.9838369641602249
+telco_customer_churn,Validation,Inconsistency,14,0.9838369641602249
+telco_customer_churn,Validation,Duplicate,0,0.0
+telco_customer_churn,Test,Missing,14,0.9838369641602249
+telco_customer_churn,Test,Invalid,14,0.9838369641602249
+telco_customer_churn,Test,Outlier,14,0.9838369641602249
+telco_customer_churn,Test,Inconsistency,14,0.9838369641602249
+telco_customer_churn,Test,Duplicate,0,0.0

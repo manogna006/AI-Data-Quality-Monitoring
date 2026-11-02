@@ -1,0 +1,2 @@
+Dataset,Accuracy,Precision,Recall,F1_Score,True_Positive,False_Positive,True_Negative,False_Negative,Overall_Threshold,Validation_F1
+telco_customer_churn,0.9768095572733662,0.7466666666666667,0.8,0.7724137931034483,56,19,1334,14,0.64,0.7692307692307693

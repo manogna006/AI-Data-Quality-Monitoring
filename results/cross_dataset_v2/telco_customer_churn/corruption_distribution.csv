@@ -1,0 +1,6 @@
+Dataset,Error_Type,Count,Percentage
+telco_customer_churn,Missing,70,0.9841135948263743
+telco_customer_churn,Invalid,70,0.9841135948263743
+telco_customer_churn,Outlier,70,0.9841135948263743
+telco_customer_churn,Inconsistency,70,0.9841135948263743
+telco_customer_churn,Duplicate,70,0.9841135948263743

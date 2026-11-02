@@ -1,0 +1,6 @@
+Dataset,Error_Type,Accuracy,Precision,Recall,F1_Score,True_Positive,False_Positive,True_Negative,False_Negative,Threshold,Validation_F1
+telco_customer_churn,Missing,1.0,1.0,1.0,1.0,14,0,1409,0,0.36000000000000004,1.0
+telco_customer_churn,Invalid,1.0,1.0,1.0,1.0,14,0,1409,0,0.13,1.0
+telco_customer_churn,Outlier,1.0,1.0,1.0,1.0,14,0,1409,0,0.39,1.0
+telco_customer_churn,Inconsistency,0.915671117357695,0.03508771929824561,0.2857142857142857,0.0625,4,110,1299,10,0.29000000000000004,0.06722689075630252
+telco_customer_churn,Duplicate,0.9915671117357695,0.5454545454545454,0.8571428571428571,0.6666666666666666,12,10,1399,2,0.52,0.5777777777777777

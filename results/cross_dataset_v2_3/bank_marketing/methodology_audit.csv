@@ -1,0 +1,20 @@
+Item,Value
+Split Strategy,JOINT ERROR-PATTERN STRATIFIED
+Train Split,60%
+Validation Split,20%
+Test Split,20%
+Context Statistics,TRAIN ONLY
+Contextual Pair Statistics,TRAIN ONLY
+Isolation Forest,TRAIN ONLY
+Random Forest,TRAIN ONLY
+Error Thresholds,VALIDATION ONLY
+Overall Threshold,VALIDATION ONLY
+Test Usage,FINAL EVALUATION ONLY
+Identifier Features,REMOVED
+Target Feature,REMOVED
+Synthetic Artifact Flag,NOT USED
+Duplicate Signal,UNSUPERVISED DATASET-LEVEL
+Duplicate Ground Truth Used By Model,NO
+Duplicate Labels,EXPLICITLY GENERATED FOR APPENDED DUPLICATES
+Controlled Corruption Rate,1% PER ERROR TYPE
+Error Types,"Missing, Invalid, Outlier, Inconsistency, Duplicate"
